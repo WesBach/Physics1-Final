@@ -1,0 +1,87 @@
+NUM_MODELS
+6
+//ply files to load into the vaomanager
+MODEL_NAME_START
+	Sphereply_xyz_n.ply
+	Mountain_landscape_xyz_n_.ply
+	mig29_xyz.ply
+	Tree_V11_Final.ply
+	Tree_V11_Final1.ply
+	Tree_V11_Final2.ply
+MODEL_END
+
+CAMERA_POSITION
+0.0 100.0 50.0
+
+//Specific model information to populate the vector of cGameObjects
+MODELS_BEGIN
+
+NUMBER_OF_MODELS_TO_DRAW
+36
+
+//test sphere
+//	Sphereply_xyz.ply		0.0		0.0		2.0		0.0		0.0		0.5		1.0		1.0		1.0		0	
+
+//All models to be drawn
+//Format to be loaded in is as follows																						//orientation						//orientation2
+
+//meshname											pos.x	pos.y	pos.z   scale  vel.x	vel.y	vel.z   radius  diff.x  diff.y  diff.z  iswireframe	preRot.x	preRot.y	preRot.z	postRot.x	postRot.y	postRot.z physUpdate typeOfObject	hassAABB
+MODELS_FOR_DRAWING		                            							   						   
+mig29_xyz.ply										0.0		20.0	0.0		1.0		0.0		0.0		0.0		 5.0	 0.0		1.0		1.0		0			0.0			0.0			0.0			0.0			0.0			0.0		1		UNKNOWN		1		
+Mountain_landscape_xyz_n_.ply						0.0	 	0.0		0.0		1.0		0.0	 	0.0		0.0		 0.0	 1.0		1.0		1.0		0			0.0			0.0			0.0			0.0			0.0			0.0		0		PLANE		0
+Tree_V11_Final.ply									-21.0	-12.0	101.0	1.0		5.0		0.0		0.0		 5.0	 1.0		0.4		0.3		0			0.0			0.0			0.0			0.0			0.0			0.0		0		ATAT		1		
+Tree_V11_Final1.ply									9.0		-12.0	101.0	1.0		5.0		0.0		0.0		 5.0	 1.0		0.4		0.3		0			0.0			0.0			0.0			0.0			0.0			0.0		0		ATAT		1		
+Tree_V11_Final2.ply									-50.0	-12.0	101.0	1.0		5.0		0.0		0.0		 5.0	 1.0		0.4		0.3		0			0.0			0.0			0.0			0.0			0.0			0.0		0		ATAT		1		
+Tree_V11_Final.ply									-84.0	-12.0	63.0	1.0		5.0		0.0		0.0		 5.0	 1.0		0.4		0.3		0			0.0			0.0			0.0			0.0			0.0			0.0		0		ATAT		1		
+Tree_V11_Final1.ply									-108.0	-12.0	63.0	1.0		5.0		0.0		0.0		 5.0	 1.0		0.4		0.3		0			0.0			0.0			0.0			0.0			0.0			0.0		0		ATAT		1		
+Tree_V11_Final2.ply									-108.0	-12.0	36.5	1.0		5.0		0.0		0.0		 5.0	 1.0		0.4		0.3		0			0.0			0.0			0.0			0.0			0.0			0.0		0		ATAT		1		
+Tree_V11_Final.ply									-90.0	-12.0	36.5	1.0		5.0		0.0		0.0		 5.0	 1.0		0.4		0.3		0			0.0			0.0			0.0			0.0			0.0			0.0		0		ATAT		1		
+Tree_V11_Final1.ply									-90.0	-12.0	5.0		1.0		5.0		0.0		0.0		 5.0	 1.0		0.4		0.3		0			0.0			0.0			0.0			0.0			0.0			0.0		0		ATAT		1		
+Tree_V11_Final2.ply									-105.0	-12.0	-19.0	1.0		5.0		0.0		0.0		 5.0	 1.0		0.4		0.3		0			0.0			0.0			0.0			0.0			0.0			0.0		0		ATAT		1		
+Tree_V11_Final.ply									-105.0	-12.0	-43.0	1.0		5.0		0.0		0.0		 5.0	 1.0		0.4		0.3		0			0.0			0.0			0.0			0.0			0.0			0.0		0		ATAT		1		
+Tree_V11_Final1.ply									-85.5	-12.0	-41.0	1.0		5.0		0.0		0.0		 5.0	 1.0		0.4		0.3		0			0.0			0.0			0.0			0.0			0.0			0.0		0		ATAT		1		
+Tree_V11_Final.ply									-69.0	-2.0	-76.0	1.0		5.0		0.0		0.0		 5.0	 1.0		0.4		0.3		0			0.0			0.0			0.0			0.0			0.0			0.0		0		ATAT		1		
+Tree_V11_Final1.ply									-48.5	-2.0	-67.0	1.0		5.0		0.0		0.0		 5.0	 1.0		0.4		0.3		0			0.0			0.0			0.0			0.0			0.0			0.0		0		ATAT		1		
+Tree_V11_Final.ply									-9.0	4.0		-100.0	1.0		5.0		0.0		0.0		 5.0	 1.0		0.4		0.3		0			0.0			0.0			0.0			0.0			0.0			0.0		0		ATAT		1		
+Tree_V11_Final1.ply									-48.5	-2.0	-115.0	1.0		5.0		0.0		0.0		 5.0	 1.0		0.4		0.3		0			0.0			0.0			0.0			0.0			0.0			0.0		0		ATAT		1		
+Tree_V11_Final.ply									81.0	-10.0	-109.0	1.0		5.0		0.0		0.0		 5.0	 1.0		0.4		0.3		0			0.0			0.0			0.0			0.0			0.0			0.0		0		ATAT		1		
+Tree_V11_Final1.ply									78.5	-7.0	-76.0	1.0		5.0		0.0		0.0		 5.0	 1.0		0.4		0.3		0			0.0			0.0			0.0			0.0			0.0			0.0		0		ATAT		1		
+Tree_V11_Final.ply									57.0	-10.0	-70.0	1.0		5.0		0.0		0.0		 5.0	 1.0		0.4		0.3		0			0.0			0.0			0.0			0.0			0.0			0.0		0		ATAT		1		
+Tree_V11_Final1.ply									48.5	-5.0	-55.0	1.0		5.0		0.0		0.0		 5.0	 1.0		0.4		0.3		0			0.0			0.0			0.0			0.0			0.0			0.0		0		ATAT		1		
+Tree_V11_Final.ply									63.0	0.0		-58.0	1.0		5.0		0.0		0.0		 5.0	 1.0		0.4		0.3		0			0.0			0.0			0.0			0.0			0.0			0.0		0		ATAT		1		
+Tree_V11_Final1.ply									66.5 	0.0		-46.0	1.0		5.0		0.0		0.0		 5.0	 1.0		0.4		0.3		0			0.0			0.0			0.0			0.0			0.0			0.0		0		ATAT		1		
+Tree_V11_Final.ply									60.0	0.0		-25.0	1.0		5.0		0.0		0.0		 5.0	 1.0		0.4		0.3		0			0.0			0.0			0.0			0.0			0.0			0.0		0		ATAT		1		
+Tree_V11_Final1.ply									75.5	5.0		-31.0	1.0		5.0		0.0		0.0		 5.0	 1.0		0.4		0.3		0			0.0			0.0			0.0			0.0			0.0			0.0		0		ATAT		1		
+Tree_V11_Final.ply									4.5		-12.0	71.0	1.0		5.0		0.0		0.0		 5.0	 1.0		0.4		0.3		0			0.0			0.0			0.0			0.0			0.0			0.0		0		ATAT		1		
+Tree_V11_Final1.ply									10.5 	0.0		29.0	1.0		5.0		0.0		0.0		 5.0	 1.0		0.4		0.3		0			0.0			0.0			0.0			0.0			0.0			0.0		0		ATAT		1		
+Tree_V11_Final.ply									34.0	-12.0	75.0	1.0		5.0		0.0		0.0		 5.0	 1.0		0.4		0.3		0			0.0			0.0			0.0			0.0			0.0			0.0		0		ATAT		1		
+Tree_V11_Final1.ply									67.5	-12.0	93.0	1.0		5.0		0.0		0.0		 5.0	 1.0		0.4		0.3		0			0.0			0.0			0.0			0.0			0.0			0.0		0		ATAT		1		
+Tree_V11_Final.ply									112.5	-12.0	69.0	1.0		5.0		0.0		0.0		 5.0	 1.0		0.4		0.3		0			0.0			0.0			0.0			0.0			0.0			0.0		0		ATAT		1		
+Tree_V11_Final1.ply									100.5 	-12.0	42.0	1.0		5.0		0.0		0.0		 5.0	 1.0		0.4		0.3		0			0.0			0.0			0.0			0.0			0.0			0.0		0		ATAT		1		
+Tree_V11_Final.ply									130.0	-12.0	9.0	    1.0		5.0		0.0		0.0		 5.0	 1.0		0.4		0.3		0			0.0			0.0			0.0			0.0			0.0			0.0		0		ATAT		1		
+Tree_V11_Final1.ply									96.5	0.0		-2.0	1.0		5.0		0.0		0.0		 5.0	 1.0		0.4		0.3		0			0.0			0.0			0.0			0.0			0.0			0.0		0		ATAT		1		
+MODELS_FOR_DRAWING_END															          
+
+
+NUM_LIGHTS_TO_LOAD
+7
+
+//in order from 
+//back left			for room lighting
+//back right		also for room lighting
+//cloud right
+//fire entity right
+//fire entity left
+//cloud left
+//back wall moon thing
+//bottom middle for under lighting
+//			pos.x	pos.y	pos.z		atten.x	atten.y	atten.z	diff.x	diff.y	diff.z
+LIGHTS_BEGIN                        
+			-20.0	70.0    0.0			0.0		0.0199		0.0		1.0		1.0		1.0
+			55.0	18.6  103.2			0.0		0.0099		0.0		0.0		1.0		1.0
+			-36.2	102.4	-250.0		0.0		0.0099		0.0		1.0		1.0		1.0
+			-5.2	4.6		0.2			0.0		0.0222676	0.0		1.0		1.0		0.0	
+			4.4		0.39    0.8			0.0		0.0222676	0.0		1.0		0.0		1.0					
+			-97.3997 47.8 -123.399		0.0		0.01		0.0		1.0		1.0		1.0
+			-97.3997 47.8 -150.399		0.0		0.0099		0.0		0.0		1.0		1.0
+LIGHTS_END				
