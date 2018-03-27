@@ -7,6 +7,9 @@
 *.o
 *.obj
 
+!lib/[Dd]ebug/*
+!lib/[Rr]elease/*
+
 # Precompiled Headers
 *.gch
 *.pch
